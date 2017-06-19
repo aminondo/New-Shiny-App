@@ -71,8 +71,8 @@ server <- function(input, output) {
          Sepal.Width = input$sepal_width
        )
        species = predict(input$fit, newdata=new_data, type="class")
-       print(species)
-       paste(sprintf("This is my prediction %s. ", species))
+       
+       paste("this works")
    })
      #nput$petal_length
      #"Output is text"
